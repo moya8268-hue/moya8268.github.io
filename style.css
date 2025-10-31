@@ -1,0 +1,29 @@
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(snoopy.jpg) center center;
+    background-size: cover;
+}
+.contenedor{
+    text-align: center;
+    max-width: 90%;
+    padding: 20px 30px;
+    background-color: rgb(236, 164, 176) ;
+    border-radius: 20px;
+    box-shadow: 0 8px  16px rgb(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.boton-redireccion{
+    background-color: rgb(204, 69, 69);
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-top: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4xp 8xp rgba(0, 0, 0, 0.1);
+} 
